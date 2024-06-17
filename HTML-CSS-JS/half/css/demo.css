@@ -1,0 +1,22 @@
+span {
+  color: blueviolet;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* id选择器 */
+#idValue {
+  color: blueviolet;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  background-color:#00ff00;
+}
+
+/* 类选择器 */
+.cls {
+  color: red;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}

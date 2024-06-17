@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+
+  <script>
+    // 代码块
+    {
+      // var定义变量 , 可以理解为全局变量 , 变量名可以重复定义
+      var a = 10;
+      //修改变量
+      a = "hello";
+
+      // let属于es6的新语法 , 变量名不能重复 , 在它所在的代码块中有效
+      let num = 10;
+      // let num = 20;
+      // alert(num);
+    }
+    // console.log(num);
+    // alert(a);
+
+    // es6的新语法 , 定义常量
+    const PI = 3.14;
+    // PI = 3.15;
+
+    // js中原始类型
+    var a = 10;
+    var b = 12.12;
+    // alert(typeof(a));
+    // alert(typeof(b));
+
+    var s1 = "hello js";
+    var s2 = "hello js";
+    // alert(typeof(s1));
+    // alert(typeof(s2));
+
+    var b1 = true;
+    var b2 = false;
+    // alert(typeof(b1));
+    // alert(typeof(b2));
+
+    var obj = null;
+    // alert(typeof(obj));
+
+    var number;
+    // alert(typeof(number));
+
+    // 运算符
+    // ==  和 === 区别
+    var a = 100;
+    var b = 123;
+    // alert(a == b);
+    // alert(a === b);
+
+    // 类型转换
+    // var s = parseInt("a123");
+    // alert(s + 1);
+
+    var b = false;
+    var number = Number(b);
+    // alert(number);
+
+    // if (null) {
+    //   alert(true);
+    // }
+
+    for (let i = 1; i <= 10; i++) {
+      console.log(i);
+    }
+  </script>
+</html>
